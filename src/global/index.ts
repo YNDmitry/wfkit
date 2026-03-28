@@ -1,0 +1,18 @@
+import { $, onReady } from '@/utils/dom'
+import { definePage, mountFeature, onWebflowReady } from '@/utils/webflow'
+import { mountSiteGlobal } from './modules/site.global'
+
+export const WF = {
+  $,
+  definePage,
+  mountFeature,
+  onReady,
+  onWebflowReady,
+  mountSiteGlobal
+}
+
+if (typeof window !== 'undefined') {
+  window.WF = WF
+}
+
+mountSiteGlobal()

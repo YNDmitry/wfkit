@@ -1,0 +1,32 @@
+{
+  "name": "wfkit-stage",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wfkit proxy",
+    "dev:vite": "vite",
+    "docs": "wfkit docs",
+    "proxy": "wfkit proxy",
+    "start": "wfkit proxy",
+    "build": "vite build",
+    "preview": "vite preview",
+    "publish": "wfkit publish --env prod",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src build vite.config.js",
+    "lint:fix": "eslint src build vite.config.js --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@flowmetelev/wfkit": "latest",
+    "fast-glob": "^3.3.3",
+    "vite": "^8.0.1",
+    "typescript": "^5.0.0",
+    "terser": "^5.0.0",
+    "prettier": "^3.0.0",
+    "eslint": "^10.1.0",
+    "@typescript-eslint/parser": "^8.57.1",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8"
+  }
+}
