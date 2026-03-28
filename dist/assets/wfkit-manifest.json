@@ -1,6 +1,7 @@
 {
-  "global": "global/index-BkKJUx9Z.js",
+  "global": "global/index-B7ii6eu4.js",
   "pages": {
-    "home": "pages/home/index-Gz1tPO4I.js"
+    "home": "pages/home/index-CMUl1u3k.js",
+    "test": "pages/test/index-CQysk_yT.js"
   }
 }
