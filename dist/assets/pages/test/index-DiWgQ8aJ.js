@@ -1,0 +1,1 @@
+import{t as o}from"../../chunks/webflow-DBeB19A3.js";o("test",()=>{console.log("123")}),console.log("123");
